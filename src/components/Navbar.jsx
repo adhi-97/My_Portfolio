@@ -1,4 +1,4 @@
-import logo from "../assets/AKLogo.png";
+import logo from "../assets/AKLogo.PNG";
 import {FaLinkedin} from "react-icons/fa"
 import {FaGithub} from "react-icons/fa"
 import {FaEnvelope} from "react-icons/fa"
