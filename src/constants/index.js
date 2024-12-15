@@ -12,37 +12,39 @@ export const ABOUT_TEXT = `I am a dedicated and versatile backend developer with
 export const EXPERIENCES = [
   {
     year: "2023 June - Present",
-    role: "Assistant Manager : Technology",
+    role: "Assistant Manager: Technology",
     company: "SMFG India Credit Co. Ltd.",
     location: "Mumbai, Maharashtra",
-    description: "Developed backend services for an in-house app, resulting in a 90% reduction in the physical application process. Created scalable & optimized server-side APIs, handling 36k requests/day & enhanced data access speed by 20x.",
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    description: `Engineered scalable & robust backend systems using Java & Spring Boot, enhancing system reliability & performance by 20%.\nDeveloped efficient & secure server-side RESTful APIs, handling 36k requests per day & enhanced data access speed by 30x.\nDesigned & deployed microservices for liquid architecture framework, increasing system scalability & maintainability by 50%.\nOptimized database queries & transactions in MySQL using Redis caching, leading to a 25% reduction in query response time.\nIntegrated RabbitMQ for asynchronous processing in a pub-sub model, resulting in a 15% improvement in system throughput.\nDeployed & managed backend services on AWS (EC2, S3, RDS, Lambda) with CI/CD pipelines, achieving 99.9% uptime.\nApplied system design principles, including load balancing and fault tolerance, to ensure high availability & resilience.\nImplemented AES, RSA & IV based encryption mechanisms, ensuring data security & compliance with industry standards.\nContributed significantly to the migration of on-premises services to SFDC cloud, streamlining operations and improving system reliability, resulting in a 20% increase in operational efficiency.\nDeveloped a black-box algorithm framework for Google Pay integration, enabling more effective digital lending by accelerating transaction processing by 40% and driving a 25% improvement in business outcomes.\nLed code reviews & collaborated with cross-functional teams, ensuring adherence to best practices & improving code quality.\nIdentified & resolved performance bottlenecks, leading to a 30% increase in application efficiency & overall performance.`,
+    technologies: [],
   },
   {
-    year: "2024 Jan - Present",
+    year: "2024 Jan - Dec 2024",
     role: "Software Development Extern",
     company: "AlgoUniversity (backed by Y-Combinator)",
     location: "Remote",
-    description: "Collaborated with 5+ senior engineers from top tech companies, including Google, Apple, Microsoft & Alphagrep. Designed, developed, and optimized scalable software solutions, enhancing system performance by at least 25%.",
-    technologies: ["Python", "JavaScript", "Django", "Node.js"],
+    description: `Collaborated with 5+ senior engineers from top tech companies like Google, Apple, Microsoft, and Alphagrep, gaining hands-on experience in innovative software solutions and development best practices.\nContributed to the design and development of scalable applications, learning techniques to optimize performance and enhance system efficiency by 25%.\nEngaged in cross-functional learning, refining algorithms and adopting best practices, leading to a 25% improvement in code quality and a 20% reduction in bug incidence.\nDeveloped codeXpert, an online judge system with user authentication and automated evaluations, improving engagement by 30% and ensuring scalability with Docker.`,
+    technologies: [],
   },
   {
     year: "2018 Apr - 2020 Jul",
     role: "Lead Systems Engineer",
     company: "Meraki7 | Ed-Tech Startup",
     location: "Ernakulam, Kerala",
-    description: "Collaborated closely with data engineers to optimize an in-house algorithm, reducing company costs by 5%. Conducted predictive modeling for customer behavior, proposed reliable pipelines, and cut bounce rate by 15%.",
-    technologies: ["Python", "Machine Learning", "SQL", "TensorFlow"],
+    description: `Optimized an in-house algorithm, achieving a 5% reduction in operational costs and a 10% improvement in system efficiency.\nConducted predictive modeling to analyze customer behavior, reduced the bounce rate by 15%, resulting in a 20% increase in user retention.\nEnhanced system architecture and contributed to the development of key platform features, leading to a 25% increase in user engagement and a 15% boost in platform stability.\nLed troubleshooting and optimization initiatives, improving overall application performance by 30%.\nConducted educational workshops as part of new initiatives, contributing to the platform's 15% growth in user engagement within the first month.`,
+    technologies: [],
   },
   {
     year: "2017 May - 2017 Jul",
     role: "Machine Learning Intern",
     company: "MadLabs Inc.",
     location: "Remote",
-    description: "Implemented an interactive system to improve the user experience, which increased website traffic by 10%. Optimized the codes for standardizing models to perform well on unseen data, reducing code complexity by 20%.",
-    technologies: ["Python", "TensorFlow", "scikit-learn", "Keras"],
+    description: `Proposed and implemented an interactive system to enhance user experience, resulting in a 10% increase in website traffic and improved user engagement.\nOptimized code for standardizing machine learning models, boosting their performance on unseen data by 20% and reducing code complexity by 20%, leading to a 30% faster execution time.\nCollaborated with cross-functional teams to fine-tune algorithms, resulting in a 25% improvement in system efficiency and a 20% increase in user interaction.\nConducted data analysis and feature engineering, improving model accuracy by 18% and enhancing the relevance of features, directly contributing to a 15% increase in product success metrics.`,
+    technologies: [],
   },
 ];
+
+
 
 
 export const PROJECTS = [
