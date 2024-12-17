@@ -80,12 +80,12 @@ const TechStack = () => {
                       src={wso2Icon}
                       alt={'WSO2'}
                       className="rounded-2xl border-4 border-neutral-700 p-4 transition-transform transform group-hover:scale-110"
-                      style={{ width: "60px", height: "60px", objectFit: "contain" }}
+                      style={{ width: "70px", height: "60px", objectFit: "contain" }}
                     />
                   ) : (
                     <Icon
                       className="rounded-2xl border-4 border-neutral-700 p-4 transition-transform transform group-hover:scale-110"
-                      style={{ fontSize: "60px", color }}
+                      style={{ fontSize: "70px", color }}
                     />
                   )}
                   <span className="text-sm mt-2 text-neutral-300 group-hover:text-neutral-100 transition-colors">{name}</span>

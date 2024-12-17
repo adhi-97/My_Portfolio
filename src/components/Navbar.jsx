@@ -59,10 +59,10 @@ const Navbar = () => {
                   TechStack
                 </li>
                 <li
-                  onClick={() => handleDropdownOptionClick("Experience")}
+                  onClick={() => handleDropdownOptionClick("Projects")}
                   className="px-4 py-2 hover:bg-gray-700 cursor-pointer transition duration-200"
                 >
-                  Experience
+                  Projects
                 </li>
               </ul>
             </div>
