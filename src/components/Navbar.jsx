@@ -2,6 +2,7 @@ import logo from "../assets/AKLogo.PNG";
 import { FaDownload } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { useState } from "react";
+import CV from '../assets/CV.pdf';
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -51,11 +52,17 @@ const Navbar = () => {
                 >
                   Experience
                 </li>
-                <li className="px-6 py-2 hover:bg-gray-700 rounded-md cursor-pointer transition duration-200">
-                  <a href="#projects">Projects</a>
+                <li
+                  onClick={() => handleDropdownOptionClick("TechStack")}
+                  className="px-4 py-2 hover:bg-gray-700 cursor-pointer transition duration-200"
+                >
+                  TechStack
                 </li>
-                <li className="px-6 py-2 hover:bg-gray-700 rounded-md cursor-pointer transition duration-200">
-                  <a href="#education">Education</a>
+                <li
+                  onClick={() => handleDropdownOptionClick("Experience")}
+                  className="px-4 py-2 hover:bg-gray-700 cursor-pointer transition duration-200"
+                >
+                  Experience
                 </li>
               </ul>
             </div>
@@ -64,7 +71,7 @@ const Navbar = () => {
 
         <div className="m-8 flex item-center justify-center gap-4 text-1xl">
           <a
-            href="/path-to-your-cv.pdf" // Replace this with the actual path to your CV
+            href={CV} // Replace this with the actual path to your CV
             download
             className="flex items-center text-sm font-small gap-2 px-4 py-2 border rounded-md border-gray-300 bg-black hover:bg-gray-800"
           >

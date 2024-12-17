@@ -49,62 +49,56 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Few-Shot Prediction on Brain Signals",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Improved BCI feasibility in low-data environments, reducing data preparation costs by 80%. Revamped a few-shot based EEG signal pipeline, slashing the training cycle by 10x with a 5% higher F1 score.",
+    technologies: ["Python", "Tensorflow", "Keras", "Pytorch", "Numpy", "Pandas", "Matplotlib"],
   },
   {
-    title: "Task Management App",
+    title: "CodeXpert: An Online Judge System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Designed, developed, & deployed an Online Judge platform with automated code evaluation & 5+ key features. Implemented a multi-language execution engine utilizing Docker containers, processing 500+ daily submissions.",
+    technologies: ["Python", "Django", "mysqlLite", "React", "Docker", "JWT Authentication"],
   },
   {
-    title: "Portfolio Website",
+    title: "Cataverse: A Product Catalog Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Designed and implemented a RESTful API for managing a product catalog, enabling CRUD operations, filtering, and caching with Redis, boosting response times by 30%. Engineered efficient product retrieval and filtering features, handling over 10,000 product requests daily.",
+    technologies: ["Java", "Spring Boot", "Redis", "PostgreSQL", "SLF4J", "OpenAPI", "Micrometer", "RESTful APIs"],
   },
   {
-    title: "Blogging Platform",
+    title: "FileDirect: A Console-Based File Manager",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a client-server architecture in C based on TCP sockets to simulate Google Doc-like mechanisms with file operations. Integrated collaborative privilege access control and managed up to 5 concurrent client connections.",
+    technologies: ["C", "TCP Sockets"],
   },
   {
-    title: "E-Commerce Website",
+    title: "Covi-Tracker: Information Bulletin on Covid-19 Pandemic",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Designed a console-based app for query-dependent browsing & information extraction from over 150 Covid-related Wikipedia pages. Created an HTML parser using PLY with custom Lex and Yacc rules in Python.",
+    technologies: ["Python", "PLY", "Lex", "Yacc", "HTML Parsing"],
   },
   {
-    title: "Task Management App",
+    title: "Search Engine: Doc Retrieval with Respect to Query",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Preprocessed the BDNews24 document (~90k corpus) using NLTK to generate an inverted positional index. Built a ranked retrieval model and improved recall by 5% with relevance feedback.",
+    technologies: ["Python", "NLTK", "TF-IDF", "Search Algorithms"],
   },
   {
-    title: "Portfolio Website",
+    title: "Mastermind Game using SAT Solver",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Created fully functional code breaker & code maker modules in C++ with a set of 3 gaming constraints. Enhanced the game to handle repetition of colors among 4 pegs.",
+    technologies: ["C++", "SAT Solver", "Game Development"],
   },
 ];
+
 
 export const EDUCATION = [
   {

@@ -1,6 +1,12 @@
 import { LANDINGPAGE_CONTENT } from "../constants";
 import profilePic from "../assets/AKProfilePic.jpeg";
-import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope, FaPhone } from "react-icons/fa"; // Add icon packages
+import {
+  FaLinkedin,
+  FaGithub,
+  FaWhatsapp,
+  FaEnvelope,
+  FaPhone,
+} from "react-icons/fa"; // Add icon packages
 
 const LandingPage = () => {
   return (
@@ -19,7 +25,10 @@ const LandingPage = () => {
               {LANDINGPAGE_CONTENT}
             </p>
             {/* Social Media Icons */}
-            <div className="flex space-x-6 mt-6"> Feel free to connect through:<br/>
+            <div className="flex space-x-6 mt-6">
+              {" "}
+              Feel free to connect through:
+              <br />
               <a
                 href="https://www.linkedin.com/in/adarshgkrishnan/"
                 target="_blank"
@@ -29,7 +38,7 @@ const LandingPage = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="https://github.com/adarshgkrishnan"
+                href="https://github.com/adhi-97"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl text-gray-800 hover:text-gray-900"
@@ -37,15 +46,23 @@ const LandingPage = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://twitter.com/adarshgkrishnan"
+                href="mailto:aadarshg.krishnan@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-2xl text-blue-500 hover:text-blue-600"
+                className="text-2xl text-red-300 hover:text-blue-600"
               >
                 <FaEnvelope />
               </a>
               <a
-                href="https://twitter.com/adarshgkrishnan"
+                href="https://wa.me/+918129151294" // Replace with your WhatsApp number
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl text-green-500 hover:text-green-600"
+              >
+                <FaWhatsapp />
+              </a>
+              <a
+                href="tel:+918129151294"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-2xl text-blue-500 hover:text-blue-600"
