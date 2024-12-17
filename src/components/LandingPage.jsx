@@ -49,7 +49,7 @@ const LandingPage = () => {
                 href="mailto:aadarshg.krishnan@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-2xl text-red-300 hover:text-blue-600"
+                className="text-2xl text-blue-300 hover:text-blue-600"
               >
                 <FaEnvelope />
               </a>
