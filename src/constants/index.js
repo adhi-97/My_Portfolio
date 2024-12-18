@@ -107,10 +107,11 @@ export const EDUCATION = [
     year: "Aug 2021 - Jun 2023",
     courses: [
       "Algorithm Design & Analysis",
-      "Artificial Intelligence (AI)",
-      "Machine Learning (ML)",
+      "Computing Lab",
+      "Artificial Intelligence",
+      "Machine Learning",
       "Information Retrieval",
-      "Deep Learning (DL)"
+      "Deep Learning"
     ],
     grade: "9.06/10"
   },
@@ -120,11 +121,37 @@ export const EDUCATION = [
     year: "Aug 2015 - May 2019",
     courses: [
       "Linear Algebra & Transform Techniques",
-      "Computational Structures"
+      "Discrete Computational Structures",
+      "Object Oriented Programming",
+      "Technical Communication & Professional Ethics"
     ],
     grade: "7.94/10"
+  },
+  {
+    degree: "Higher Secondary, AISSCE CBSE",
+    school: "Bharathiya Vidya Bhavan's Vidya Mandir",
+    year: "Jun 2013 - May 2015",
+    courses: [
+      "Computer Science",
+      "Mathematics",
+      "English"
+    ],
+    grade: "89%"
+  },
+  {
+    degree: "High School, SSE CBSE",
+    school: "Bharathiya Vidya Bhavan's Vidya Mandir",
+    year: "Jun 2012 - May 2013",
+    courses: [
+      "Mathematics",
+      "Science",
+      "English"
+    ],
+    grade: "9.00/10"
   }
 ];
+
+
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",
